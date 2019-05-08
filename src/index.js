@@ -9,9 +9,9 @@ import Login from './login';
 ReactDOM.render((
   <Router>
     <React.Fragment>
-      <Route exact path="/" render={Home} />
-      <Route exact path="/about" render={About} />
-      <Route exact path="/login" render={Login} />
+      <Route exact path="/" component ={Home} />
+      <Route exact path="/about" component ={About} />
+      <Route exact path="/login" component ={Login} />
     </React.Fragment>
   </Router>),
   document.getElementById('root')

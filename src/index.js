@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './home';
+import About from './about';
+import Login from './login';
 
 
 ReactDOM.render((

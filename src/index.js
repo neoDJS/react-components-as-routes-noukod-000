@@ -54,6 +54,7 @@ const Navbar = () =>
 ReactDOM.render((
   <Router>
     <React.Fragment>
+      <Navbar />
       <Route exact path="/" component ={Home} />
       <Route exact path="/about" component ={About} />
       <Route exact path="/login" component ={Login} />
